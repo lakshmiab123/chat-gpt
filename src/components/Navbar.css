@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #0e0320; 
+  padding: 7px; 
+  width: 15%; 
+  height: 100vh; 
+  position: fixed;
+  top: 2px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0; 
+}
+
+.nav {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 40px 0 0 0; 
+  flex-grow: 1; 
+}
+
+.nav-item {
+  margin-bottom: 8px; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; 
+  padding: 10px 15px; 
+  display: flex; 
+  align-items: center; 
+  border-radius: 3px; 
+  transition: background-color 0.3s ease; 
+}
+
+.nav-link:hover {
+  background-color: #575757; 
+}
+
+.nav-logo {
+  width: 40px;  
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+.nav-icon {
+  width: 24px; 
+  height: auto; 
+  margin-right: 15px;
+}
+
+.nav-item:last-child {
+  margin-top: auto; 
+  border-top: 1px solid #ccc; 
+}
+
+.nav-link.disabled {
+  color: #bbb; 
+  pointer-events: none; 
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%; 
+    height: auto; 
+    position: relative;
+  }
+
+  .nav {
+    margin-top: 20px; 
+  }
+
+  .nav-item {
+    margin-bottom: 10px; 
+  }
+}
+.navbar {
+  /* Add your styles for the navbar */
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  padding-top: 1px;
+}
+
+.nav-item {
+  margin: 10px 1px;
+}
+
+.gem-icon {
+  margin-bottom: 5px;
+  margin-top: -50px; 
+}
+
+.gem-icon img {
+  width: 200px;
+  height:auto;
+}
